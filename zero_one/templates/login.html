@@ -1,0 +1,73 @@
+<!-- Store this code in 'login.html' file inside the 'templates' folder -->
+<!--
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Login </title>
+	</head>
+	<body bgcolor="gray"></br></br></br></br></br>
+		<img src="avatar_2x.jpg" alt="Avatar" class="avatar"><br><br>
+		<div align="center">
+		<div align="center" class="border">
+			<div class="header">
+				<h1 class="word">Login</h1>
+			</div></br></br></br>
+			<h2 class="word">
+				<form action="{{ url_for('login') }}" method="post">
+				<div class="msg">{{ msg }}</div>
+					<input id="username" name="username" type="text" placeholder="Enter Your Username" class="textbox"/></br></br>
+					<input id="password" name="password" type="password" placeholder="Enter Your Password" class="textbox"/></br></br></br>
+					<input type="submit" class="btn" value="Sign In"></br></br>
+				</form>
+			</h2>
+			<p class="bottom">Don't have an account? <a class="bottom" href="{{url_for('register')}}"> Sign Up here</a></p>
+		</div>
+		</div>
+	</body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.avatar {
+  vertical-align: middle;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.textbox{
+	width: 350px;
+	height:25px;
+	border:1px solid;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body background="{{url_for('static', filename = 'login1.jpg')}}">
+<div class="form-container" align="center">
+    <form action="{{ url_for('login') }}" method="post" align="center" style="background-color: whitesmoke;width: 450px;height: 470px; margin:auto;border-radius: 5px;background-color:transparent;margin-top: 5%;border: 1px solid black;">
+      <div class="msg">{{ msg }}</div>
+      <h2>Login</h2>
+	  <!--src="{{ url_for('static', filename = 'avatar_2x.png') }}"-->
+	  	<div class="modal-body">
+		<img id="image" src="{{url_for('static', filename = 'avatar_2x.jpg')}}" alt="Avatar" class="avatar"/>
+		</div>
+	<br>
+      <!--<img src="avatar_2x.png" alt="Avatar" class="avatar"><br><br>-->
+	  	<i class="fa fa-user icon"></i>
+		<input id="username" name="username" type="text" placeholder="Enter Your Username" class="textbox"/></br><br>
+		<i class="fa fa-key icon"></i>
+        <input id="password" name="password" type="password" placeholder="Enter Your Password" class="textbox"/></br></br></br>
+        <input type="submit" class="btn" value="Sign In"></br>
+		<p class="bottom">Don't have an account? <a class="bottom" href="{{url_for('register')}}"> Sign Up here</a></p> 
+    </form>
+	</h2>
+</div>
+
+<!-- <img src="img_avatar.jpg" alt="Avatar" class="avatar"> -->
+
+
+</body>
+</html>

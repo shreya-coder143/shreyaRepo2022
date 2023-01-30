@@ -1,0 +1,35 @@
+<!-- Store this code in 'register.html' file inside the 'templates' folder -->
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Register </title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body bgcolor="cyan"></br></br></br></br></br>
+		<div align="center">
+		<div align="center" class="border">
+			<div class="header">
+			</div></br>
+			<h2 class="word">
+				<form action="{{ url_for('register') }}" method="post"style="background-color: whitesmoke;width: 450px;height: 470px; margin:auto;border-radius: 5px;background-color:lightblack;margin-top:2%;border: 1px solid black;">
+					<h2 class="word"><i class="fa fa-user icon" style="background:black;"></i></h2>
+					<div class="msg">{{ msg }}</div>
+					<i class="fa fa-id-card-o"></i>
+					<input id="ID" name="ID" type="text" placeholder="Enter Your ID Number" class="textbox"/></br></br>
+					<i class="fa fa-user icon"></i>	
+					<input id="username" name="username" type="text" placeholder="Enter Your Username" class="textbox"/></br></br>
+					<i class="fa fa-key icon"></i>
+					<input id="password" name="password" type="password" placeholder="Enter Your Password" class="textbox"/></br></br>
+					<i class="fa fa-envelope icon"></i>
+
+					<input id="email" name="email" type="text" placeholder="Enter Your Email ID" class="textbox"/></br></br>
+					<input type="submit" class="btn" value="Sign Up"></br>
+				</form>
+			</h2>
+			<p class="bottom">Already have an account? <a class="bottom" href="{{url_for('login')}}"> Sign In here</a></p>
+		</div>
+		</div>
+	</body>
+</html>
