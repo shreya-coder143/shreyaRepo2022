@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+                <h1>hello shreyaworld!</h1>
+                <form method="post" action="/update/{{user.id}}">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label><b>User name</b></label>
+                        <input type="text" name="uname" class="form-control" value="{{user.uname}}">
+                    </div>
+                    <div class="form-group">
+                        <label><b>User email</b></label>
+                        <input type="text" name="uemail" class="form-control" value="{{user.uemail}}">
+                    </div>
+                    <div class="form-group">
+                        <label><b>User password</b></label>
+                        <input type="text" name="upassword" class="form-control" value="{{user.upassword}}">
+                    </div>
+                   <input type="submit" name="Update" class="btn btn-success">
+                </form>
+        </div>
+    </body>
+</html>
