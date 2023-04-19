@@ -1,0 +1,851 @@
+{'#': 1, 'Result': 2, 'Protocol': 3, 'Host': 4, 'URL': 5, 'Body': 6}
+in parser
+/session
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/session
+****************************************************************************************************
+('app.adjust.net.in', '21', {'C': 'raw\\021_c.txt', 'S': 'raw\\021_s.txt', 'M': 'raw\\021_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\021_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\021_s.txt', '/session')
+E:/test/file/httplogs_nrnpanle_8829\raw\021_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/session HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="673A575BCF1FFF3A0461110E3CA88E47ED56EF7F7AF0077F76E77C5530DF538A",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1224
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=678&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&installed_at=2022-06-21T10%3A19%3A13.997Z%2B0530&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&last_interval=171071&cpu_type=arm64-v8a&updated_at=2022-06-21T10%3A19%3A13.997Z%2B0530&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=10&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=761&package_name=io.chingari.app&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A44%3A25.129Z%2B0530&display_height=1920&os_version=6.0&sent_at=2022-06-23T10%3A44%3A25.405Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '53', {'C': 'raw\\053_c.txt', 'S': 'raw\\053_s.txt', 'M': 'raw\\053_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\053_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\053_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\053_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="2F57316123FEF81BB2E5C9B3803603872B2D8A3AD7E6C663AFC96D8A07E527FB",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1136
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=5&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=1&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=5&package_name=io.chingari.app&event_count=63&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A44%3A29.661Z%2B0530&display_height=1920&os_version=6.0&event_token=u272tn&sent_at=2022-06-23T10%3A44%3A31.008Z%2B0530'
+in parser
+/attribution?device_type=phone&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&attribution_deeplink=1&api_level=23&needs_response_details=1&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&event_buffering_enabled=0&os_name=android&gps_adid_src=service&tracking_enabled=1&package_name=io.chingari.app&initiated_by=sdk&app_version=3.2.2&gps_adid_attempt=1&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A44%3A31.249Z%2B0530&os_version=6.0&sent_at=2022-06-23T10%3A44%3A32.465Z%2B0530
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/attribution?device_type=phone&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&attribution_deeplink=1&api_level=23&needs_response_details=1&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&event_buffering_enabled=0&os_name=android&gps_adid_src=service&tracking_enabled=1&package_name=io.chingari.app&initiated_by=sdk&app_version=3.2.2&gps_adid_attempt=1&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A44%3A31.249Z%2B0530&os_version=6.0&sent_at=2022-06-23T10%3A44%3A32.465Z%2B0530
+****************************************************************************************************
+('app.adjust.net.in', '59', {'C': 'raw\\059_c.txt', 'S': 'raw\\059_s.txt', 'M': 'raw\\059_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\059_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\059_s.txt', '/attribution?device_type=phone&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&attribution_deeplink=1&api_level=23&needs_response_details=1&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&event_buffering_enabled=0&os_name=android&gps_adid_src=service&tracking_enabled=1&package_name=io.chingari.app&initiated_by=sdk&app_version=3.2.2&gps_adid_attempt=1&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A44%3A31.249Z%2B0530&os_version=6.0&sent_at=2022-06-23T10%3A44%3A32.465Z%2B0530')
+E:/test/file/httplogs_nrnpanle_8829\raw\059_c.txt
+app.adjust.net.in
+GET https://app.adjust.net.in/attribution?device_type=phone&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&attribution_deeplink=1&api_level=23&needs_response_details=1&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&event_buffering_enabled=0&os_name=android&gps_adid_src=service&tracking_enabled=1&package_name=io.chingari.app&initiated_by=sdk&app_version=3.2.2&gps_adid_attempt=1&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A44%3A31.249Z%2B0530&os_version=6.0&sent_at=2022-06-23T10%3A44%3A32.465Z%2B0530 HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="B9DEFFD84DC2F164775DDE05B2C27ACB5B2C6F1E06DFE8448EB9E9F457C2913D",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~8
+b''
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '78', {'C': 'raw\\078_c.txt', 'S': 'raw\\078_s.txt', 'M': 'raw\\078_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\078_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\078_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\078_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="B2D489BF96C3FB242B1FB8CA68805F6242AD805592CBA6E1D5362736992F5830",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1136
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=7&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=8&package_name=io.chingari.app&event_count=64&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A44%3A33.425Z%2B0530&display_height=1920&os_version=6.0&event_token=shj0zu&sent_at=2022-06-23T10%3A44%3A33.695Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '168', {'C': 'raw\\168_c.txt', 'S': 'raw\\168_s.txt', 'M': 'raw\\168_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\168_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\168_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\168_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="64C849D43CDC0C5117D75ADF6370397E9CBD9B785E874F02B49747DB0803FCA4",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1138
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=23&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=25&package_name=io.chingari.app&event_count=65&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A44%3A49.708Z%2B0530&display_height=1920&os_version=6.0&event_token=u272tn&sent_at=2022-06-23T10%3A44%3A49.790Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '181', {'C': 'raw\\181_c.txt', 'S': 'raw\\181_s.txt', 'M': 'raw\\181_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\181_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\181_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\181_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="CD38382E4A444F22D51C7D2865B155B3BDCD121936864EBC0A163159CAEE3E92",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1138
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=45&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=46&package_name=io.chingari.app&event_count=66&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A45%3A11.168Z%2B0530&display_height=1920&os_version=6.0&event_token=shj0zu&sent_at=2022-06-23T10%3A45%3A11.271Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '287', {'C': 'raw\\287_c.txt', 'S': 'raw\\287_s.txt', 'M': 'raw\\287_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\287_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\287_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\287_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="32229E9C708592E23B1C0A4147DC85AE710BC3CECD8CCC132AD56E02C8E742C9",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1138
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=58&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=59&package_name=io.chingari.app&event_count=67&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A45%3A24.475Z%2B0530&display_height=1920&os_version=6.0&event_token=tqyc8o&sent_at=2022-06-23T10%3A45%3A24.797Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '294', {'C': 'raw\\294_c.txt', 'S': 'raw\\294_s.txt', 'M': 'raw\\294_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\294_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\294_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\294_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="87A5042A669D415AD798E9A52888C7FF5F6E435463A7765E5CC86F34078CF8E7",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1138
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=58&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=60&package_name=io.chingari.app&event_count=68&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A45%3A24.791Z%2B0530&display_height=1920&os_version=6.0&event_token=w1x65y&sent_at=2022-06-23T10%3A45%3A25.507Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '320', {'C': 'raw\\320_c.txt', 'S': 'raw\\320_s.txt', 'M': 'raw\\320_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\320_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\320_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\320_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="69ADBAD506FB45D1DB9CCE2989819443C36BC8AD55D71CFCD678ED756B31ABC5",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1138
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=62&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=63&package_name=io.chingari.app&event_count=69&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A45%3A28.390Z%2B0530&display_height=1920&os_version=6.0&event_token=jgt5qc&sent_at=2022-06-23T10%3A45%3A28.584Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '373', {'C': 'raw\\373_c.txt', 'S': 'raw\\373_s.txt', 'M': 'raw\\373_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\373_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\373_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\373_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="64F03A378C1DAF7DBB49DBC31950D9370C00696C0EED24ACA01F3827B1213E47",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=116&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=118&package_name=io.chingari.app&event_count=70&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A46%3A22.696Z%2B0530&display_height=1920&os_version=6.0&event_token=u272tn&sent_at=2022-06-23T10%3A46%3A23.984Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '377', {'C': 'raw\\377_c.txt', 'S': 'raw\\377_s.txt', 'M': 'raw\\377_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\377_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\377_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\377_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="AFC94A255A2392FE4477072EF4678B833CACB601E8DF5003C2B9A2D5316E4210",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=117&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=119&package_name=io.chingari.app&event_count=71&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A46%3A23.972Z%2B0530&display_height=1920&os_version=6.0&event_token=shj0zu&sent_at=2022-06-23T10%3A46%3A24.732Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '419', {'C': 'raw\\419_c.txt', 'S': 'raw\\419_s.txt', 'M': 'raw\\419_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\419_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\419_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\419_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="B9E8D56B5B9EFFCA183A72431B16578B313BEA058C34A5F7563BD89E871A6BBC",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=122&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=123&package_name=io.chingari.app&event_count=72&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A46%3A28.068Z%2B0530&display_height=1920&os_version=6.0&event_token=shj0zu&sent_at=2022-06-23T10%3A46%3A28.240Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '423', {'C': 'raw\\423_c.txt', 'S': 'raw\\423_s.txt', 'M': 'raw\\423_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\423_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\423_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\423_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="A82CC40E187E2333A1A58E5A48250B5CB5A75BEC0102D5EED49C55772CE15CF1",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=122&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=123&package_name=io.chingari.app&event_count=73&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A46%3A28.228Z%2B0530&display_height=1920&os_version=6.0&event_token=u272tn&sent_at=2022-06-23T10%3A46%3A28.937Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '449', {'C': 'raw\\449_c.txt', 'S': 'raw\\449_s.txt', 'M': 'raw\\449_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\449_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\449_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\449_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="357E59F4022B26FD28D01790E50D562A19391BCCB317440E7243EE270AFCFE8A",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=130&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=131&package_name=io.chingari.app&event_count=74&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A46%3A36.462Z%2B0530&display_height=1920&os_version=6.0&event_token=my0o0t&sent_at=2022-06-23T10%3A46%3A36.606Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '451', {'C': 'raw\\451_c.txt', 'S': 'raw\\451_s.txt', 'M': 'raw\\451_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\451_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\451_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\451_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="95D1A1150A981C322E7C43D65340CC3C034AA97E72477441059FA067B44D38DA",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=130&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=131&package_name=io.chingari.app&event_count=75&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A46%3A36.598Z%2B0530&display_height=1920&os_version=6.0&event_token=aagjrs&sent_at=2022-06-23T10%3A46%3A37.130Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '458', {'C': 'raw\\458_c.txt', 'S': 'raw\\458_s.txt', 'M': 'raw\\458_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\458_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\458_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\458_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="943710811CE1A049FDEC8183F6DC0A65B09F62EC0C4A95BF606CF4F72557BF14",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=140&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=141&package_name=io.chingari.app&event_count=76&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A46%3A46.075Z%2B0530&display_height=1920&os_version=6.0&event_token=hw43u4&sent_at=2022-06-23T10%3A46%3A46.353Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '460', {'C': 'raw\\460_c.txt', 'S': 'raw\\460_s.txt', 'M': 'raw\\460_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\460_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\460_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\460_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="3F21F94636E865BFABA8AF27FBA3CA8E1F104923C5D437D083540399C55B37CF",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=154&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=156&package_name=io.chingari.app&event_count=77&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A47%3A00.798Z%2B0530&display_height=1920&os_version=6.0&event_token=hixbxm&sent_at=2022-06-23T10%3A47%3A00.938Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '463', {'C': 'raw\\463_c.txt', 'S': 'raw\\463_s.txt', 'M': 'raw\\463_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\463_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\463_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\463_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="0A37CA1ADE9ED462BDCCEA8CAB0DB0F4F82CB4A9677A171CFB4E69FC818697DC",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=159&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=160&package_name=io.chingari.app&event_count=78&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A47%3A05.009Z%2B0530&display_height=1920&os_version=6.0&event_token=tc8409&sent_at=2022-06-23T10%3A47%3A05.102Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '465', {'C': 'raw\\465_c.txt', 'S': 'raw\\465_s.txt', 'M': 'raw\\465_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\465_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\465_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\465_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="2B13B0CEF4AA81BAD8494582CF76617580FF75C252DEB071745B0E9975839355",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=166&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=167&package_name=io.chingari.app&event_count=79&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A47%3A12.433Z%2B0530&display_height=1920&os_version=6.0&event_token=jxlmz1&sent_at=2022-06-23T10%3A47%3A12.805Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '467', {'C': 'raw\\467_c.txt', 'S': 'raw\\467_s.txt', 'M': 'raw\\467_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\467_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\467_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\467_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="278B980E688ED744B17B67FECD95844D6C84DB8E4306A0DB8C488D0C0645A080",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=166&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=168&package_name=io.chingari.app&event_count=80&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A47%3A12.805Z%2B0530&display_height=1920&os_version=6.0&event_token=dvthh0&sent_at=2022-06-23T10%3A47%3A13.566Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '515', {'C': 'raw\\515_c.txt', 'S': 'raw\\515_s.txt', 'M': 'raw\\515_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\515_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\515_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\515_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="AC53130A2369CF5A568FB5D4258DFC64541C6F7651FA88B6BE60E0B28C9060B7",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=359&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=361&package_name=io.chingari.app&event_count=81&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A50%3A25.718Z%2B0530&display_height=1920&os_version=6.0&event_token=k46u81&sent_at=2022-06-23T10%3A50%3A25.856Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '519', {'C': 'raw\\519_c.txt', 'S': 'raw\\519_s.txt', 'M': 'raw\\519_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\519_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\519_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\519_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="0F72E5AB37F0A4C39730CE244FB492E09B32B3B0213AFFAC70D0290370394792",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=361&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=362&package_name=io.chingari.app&event_count=82&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A50%3A27.110Z%2B0530&display_height=1920&os_version=6.0&event_token=my0o0t&sent_at=2022-06-23T10%3A50%3A27.236Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '520', {'C': 'raw\\520_c.txt', 'S': 'raw\\520_s.txt', 'M': 'raw\\520_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\520_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\520_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\520_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="B09BC419696BA95252A097C643187B59E0BFD6C797D670093F6C6A51DF74FF35",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=361&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=363&package_name=io.chingari.app&event_count=83&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A50%3A27.777Z%2B0530&display_height=1920&os_version=6.0&event_token=aagjrs&sent_at=2022-06-23T10%3A50%3A28.042Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '528', {'C': 'raw\\528_c.txt', 'S': 'raw\\528_s.txt', 'M': 'raw\\528_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\528_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\528_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\528_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="7CAF08354A3C82B8FE8F5205423C90756930B2BB398C21B03D1D1F6432A43B84",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=399&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=400&package_name=io.chingari.app&event_count=84&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A51%3A05.550Z%2B0530&display_height=1920&os_version=6.0&event_token=hw43u4&sent_at=2022-06-23T10%3A51%3A05.744Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '536', {'C': 'raw\\536_c.txt', 'S': 'raw\\536_s.txt', 'M': 'raw\\536_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\536_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\536_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\536_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="7E1223280130C723647BB9D7712AA161BF3C6E7B282A062DF310EB222D4ABAE7",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=507&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=508&package_name=io.chingari.app&event_count=85&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A52%3A53.246Z%2B0530&display_height=1920&os_version=6.0&event_token=hixbxm&sent_at=2022-06-23T10%3A52%3A53.362Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '542', {'C': 'raw\\542_c.txt', 'S': 'raw\\542_s.txt', 'M': 'raw\\542_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\542_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\542_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\542_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="ED2DE5C2B54D348B73980F06E662314A138378EDDB8798F94C43EAE59D477A42",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1140
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=512&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=2&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=513&package_name=io.chingari.app&event_count=86&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A52%3A58.186Z%2B0530&display_height=1920&os_version=6.0&event_token=tc8409&sent_at=2022-06-23T10%3A52%3A58.272Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '609', {'C': 'raw\\609_c.txt', 'S': 'raw\\609_s.txt', 'M': 'raw\\609_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\609_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\609_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\609_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="C5C9F9E9C63EEFB2626F30EE87FC6FB2D64719994AD4778CD27B526876CD9CC5",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=739&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=3&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=747&package_name=io.chingari.app&event_count=103&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A56%3A52.551Z%2B0530&display_height=1920&os_version=6.0&event_token=kspd9p&sent_at=2022-06-23T10%3A56%3A52.677Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '610', {'C': 'raw\\610_c.txt', 'S': 'raw\\610_s.txt', 'M': 'raw\\610_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\610_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\610_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\610_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="D8DB483BB9F4F0E2B676E6B58E7DA791540FC97018B5E567310A2826CF23A7EA",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=739&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=3&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=748&package_name=io.chingari.app&event_count=104&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A56%3A52.663Z%2B0530&display_height=1920&os_version=6.0&event_token=5rrr2w&sent_at=2022-06-23T10%3A56%3A53.424Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '622', {'C': 'raw\\622_c.txt', 'S': 'raw\\622_s.txt', 'M': 'raw\\622_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\622_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\622_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\622_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="039B516642FE494D61E2675CC78DC3A39CBE51859D839921AFA2818514FB187C",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=779&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=3&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=788&package_name=io.chingari.app&event_count=105&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A57%3A32.885Z%2B0530&display_height=1920&os_version=6.0&event_token=nh3i25&sent_at=2022-06-23T10%3A57%3A33.080Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '626', {'C': 'raw\\626_c.txt', 'S': 'raw\\626_s.txt', 'M': 'raw\\626_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\626_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\626_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\626_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="BD7CF956C828183969F9CACC6D40033B103FCD035C6FB8C9B3341FCE7AE75424",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=797&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=3&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=806&package_name=io.chingari.app&event_count=106&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A57%3A51.190Z%2B0530&display_height=1920&os_version=6.0&event_token=5rrr2w&sent_at=2022-06-23T10%3A57%3A51.265Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '662', {'C': 'raw\\662_c.txt', 'S': 'raw\\662_s.txt', 'M': 'raw\\662_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\662_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\662_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\662_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="ED712C7993C472FD2DF85FFF84C3CAE2AFAE7BE1F0008D8092C44A28089E13FB",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=812&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=3&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=821&package_name=io.chingari.app&event_count=107&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A58%3A06.300Z%2B0530&display_height=1920&os_version=6.0&event_token=tuf9dh&sent_at=2022-06-23T10%3A58%3A06.555Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '668', {'C': 'raw\\668_c.txt', 'S': 'raw\\668_s.txt', 'M': 'raw\\668_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\668_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\668_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\668_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="61AEEF115EEF7F3623856C14CBE1E4204928D5F9280E9BF5CF756DF71118E2B2",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=838&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=3&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=847&package_name=io.chingari.app&event_count=108&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A58%3A32.230Z%2B0530&display_height=1920&os_version=6.0&event_token=eo04ds&sent_at=2022-06-23T10%3A58%3A36.219Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '669', {'C': 'raw\\669_c.txt', 'S': 'raw\\669_s.txt', 'M': 'raw\\669_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\669_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\669_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\669_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="CE5954648734614FD05C1A3B4D95959BF07B1FCADA81497BBFB4A527820D29EF",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=840&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=4&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=852&package_name=io.chingari.app&event_count=109&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A58%3A37.449Z%2B0530&display_height=1920&os_version=6.0&event_token=5rrr2w&sent_at=2022-06-23T10%3A58%3A37.526Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '672', {'C': 'raw\\672_c.txt', 'S': 'raw\\672_s.txt', 'M': 'raw\\672_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\672_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\672_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\672_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="2F9BBB15C0F67DCE75C71277DE615797424C04151E9B974941C7C208BD7E99CD",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=842&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=4&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=854&package_name=io.chingari.app&event_count=110&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A58%3A39.405Z%2B0530&display_height=1920&os_version=6.0&event_token=5rrr2w&sent_at=2022-06-23T10%3A58%3A39.512Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '675', {'C': 'raw\\675_c.txt', 'S': 'raw\\675_s.txt', 'M': 'raw\\675_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\675_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\675_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\675_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="CF55B35835E805415D72A5E33DBCC4932AD8302691BB85911F052FA159AFBFBA",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=844&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=4&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=857&package_name=io.chingari.app&event_count=111&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T10%3A58%3A41.947Z%2B0530&display_height=1920&os_version=6.0&event_token=5rrr2w&sent_at=2022-06-23T10%3A58%3A42.065Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '691', {'C': 'raw\\691_c.txt', 'S': 'raw\\691_s.txt', 'M': 'raw\\691_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\691_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\691_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\691_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="825696A4753D200102E4C72EEA4F7DBD250EDC873AE0262194EBAD933DC52168",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1154
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=942&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=4&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=954&package_name=io.chingari.app&event_count=112&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T11%3A00%3A19.591Z%2B0530&display_height=1920&os_version=6.0&event_token=x701be&queue_size=1&sent_at=2022-06-23T11%3A00%3A20.316Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '710', {'C': 'raw\\710_c.txt', 'S': 'raw\\710_s.txt', 'M': 'raw\\710_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\710_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\710_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\710_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="CEA896AB17DF9738DD2276CB6C8A2B038ECCAC59B7040DB4C4A482DCD76B5C9F",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=942&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=4&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=955&package_name=io.chingari.app&event_count=113&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T11%3A00%3A20.047Z%2B0530&display_height=1920&os_version=6.0&event_token=u272tn&sent_at=2022-06-23T11%3A00%3A21.024Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '723', {'C': 'raw\\723_c.txt', 'S': 'raw\\723_s.txt', 'M': 'raw\\723_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\723_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\723_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\723_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="D5D33600C3CB6032403B7BEA5D797C4A9CCB11FCCD033AA34672FF99C49000D5",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=943&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=4&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=956&package_name=io.chingari.app&event_count=114&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T11%3A00%3A20.634Z%2B0530&display_height=1920&os_version=6.0&event_token=shj0zu&sent_at=2022-06-23T11%3A00%3A21.658Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '731', {'C': 'raw\\731_c.txt', 'S': 'raw\\731_s.txt', 'M': 'raw\\731_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\731_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\731_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\731_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="041AA2BBCAE60D9CBCCA5957A6C5B08EFA12F88B9291117398BC324AAB831BF8",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=944&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=4&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=957&package_name=io.chingari.app&event_count=115&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T11%3A00%3A21.653Z%2B0530&display_height=1920&os_version=6.0&event_token=shj0zu&sent_at=2022-06-23T11%3A00%3A22.130Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '733', {'C': 'raw\\733_c.txt', 'S': 'raw\\733_s.txt', 'M': 'raw\\733_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\733_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\733_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\733_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="B58AA025C454DCB3F714AC9BB15038EA53B2AC184009FB37733FD1F3E2A62B33",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=944&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=4&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=957&package_name=io.chingari.app&event_count=116&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T11%3A00%3A22.126Z%2B0530&display_height=1920&os_version=6.0&event_token=u272tn&sent_at=2022-06-23T11%3A00%3A22.429Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '748', {'C': 'raw\\748_c.txt', 'S': 'raw\\748_s.txt', 'M': 'raw\\748_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\748_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\748_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\748_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="82D3ECAA58DD3D891CF2B2BF84E3BE33221A0CE7ED7C47834D5D900A0BF93EF6",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=952&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=4&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=964&package_name=io.chingari.app&event_count=117&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T11%3A00%3A29.446Z%2B0530&display_height=1920&os_version=6.0&event_token=shj0zu&sent_at=2022-06-23T11%3A00%3A29.570Z%2B0530'
+in parser
+/event
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+/event
+****************************************************************************************************
+('app.adjust.net.in', '763', {'C': 'raw\\763_c.txt', 'S': 'raw\\763_s.txt', 'M': 'raw\\763_m.xml'}, 'E:/test/file/httplogs_nrnpanle_8829\\raw\\763_c.txt', 'E:/test/file/httplogs_nrnpanle_8829\\raw\\763_s.txt', '/event')
+E:/test/file/httplogs_nrnpanle_8829\raw\763_c.txt
+app.adjust.net.in
+POST https://app.adjust.net.in/event HTTP/1.1
+Client-SDK: android4.28.7
+Authorization: Signature signature="056011F2FB062CBA228B9D50E7150B69434B21C329C42ABDD6208BD5D7ED12B5",secret_id="2",algorithm="adj2",headers_id="3",native_version="1.8.3"
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0; CPH1609 Build/MRA58K)
+Host: app.adjust.net.in
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1141
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~10
+b'device_type=phone&device_manufacturer=OPPO&gps_adid=fca25797-5e02-4d24-b942-993584ed02fe&environment=production&time_spent=952&android_uuid=01ee6183-76ea-4a90-8f41-288bc41708e9&connectivity_type=1&os_build=MRA58K&needs_response_details=1&event_buffering_enabled=0&mcc=405&os_name=android&callback_params=%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D&display_width=1080&gps_adid_src=service&tracking_enabled=1&mnc=872&network_type=13&gps_adid_attempt=1&screen_size=normal&language=en&cpu_type=arm64-v8a&session_count=2&attribution_deeplink=1&api_level=23&push_token=cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5&screen_format=long&subsession_count=4&screen_density=high&hardware_name=CPH1609EX_11_A.32_191228&session_length=964&package_name=io.chingari.app&event_count=118&app_version=3.2.2&country=US&app_token=mx1fktedx2io&device_name=CPH1609&ui_mode=1&created_at=2022-06-23T11%3A00%3A29.563Z%2B0530&display_height=1920&os_version=6.0&event_token=u272tn&sent_at=2022-06-23T11%3A00%3A30.302Z%2B0530'
+{'#': 1, 'Result': 2, 'Protocol': 3, 'Host': 4, 'URL': 5, 'Body': 6}
+
+
+
+
+
+
+{"b'device_type": 'phone', 'device_manufacturer': 'OPPO', 'gps_adid': 'fca25797-5e02-4d24-b942-993584ed02fe', 'environment': 'production', 'time_spent': '5', 'android_uuid': '01ee6183-76ea-4a90-8f41-288bc41708e9', 'connectivity_type': '1', 'os_build': 'MRA58K', 'needs_response_details': '1', 'event_buffering_enabled': '0', 'mcc': '405', 'os_name': 'android', 'callback_params': '%7B%22clevertap_id%22%3A%22__gfca257975e024d24b942993584ed02fe%22%7D', 'display_width': '1080', 'gps_adid_src': 'service', 'tracking_enabled': '1', 'mnc': '872', 'network_type': '13', 'gps_adid_attempt': '1', 'screen_size': 'normal', 'language': 'en', 'cpu_type': 'arm64-v8a', 'session_count': '2', 'attribution_deeplink': '1', 'api_level': '23', 'push_token': 'cQ7wNV2-RGK_g5dMkxMosW%3AAPA91bEYu_Y5qdwZfngDqceiCJsmQeisEVlGknsL6kAn5bHQ78p7Gtq5mwIM_QpE8iCehDV5L98HT7z6qXosmxE4N0oqc9hbNKb6rtfcCpe9br7ZddDYctD-hIdvkOGoZxpkbDQr_Fp5', 'screen_format': 'long', 'subsession_count': '1', 'screen_density': 'high', 'hardware_name': 'CPH1609EX_11_A.32_191228', 'session_length': '5', 'package_name': 'io.chingari.app', 'event_count': '63', 'app_version': '3.2.2', 'country': 'US', 'app_token': 'mx1fktedx2io', 'device_name': 'CPH1609', 'ui_mode': '1', 'created_at': '2022-06-23T10%3A44%3A29.661Z%2B0530', 'display_height': '1920', 'os_version': '6.0', 'event_token': 'u272tn', 'sent_at': "2022-06-23T10%3A44%3A31.008Z%2B0530'"}
+
+
+
+
